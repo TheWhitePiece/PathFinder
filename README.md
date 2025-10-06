@@ -3,7 +3,7 @@ Pathfinder is an interactive demonstration of a few major maze-generation and pa
 
 ![Gif of maze generation](./maze.gif)
 
-[Live version.](https://emmilco.github.io/path_finder/)
+[Live version.](https://thepathfinder.vercel.app/)
 
 ## Technologies
 
@@ -54,4 +54,4 @@ A\* is implemented as an ES6 class.  Both it and the Prim's generator use a bina
 
 I also built an implementation of Fisher-Yates shuffle, as well as two simple grid-flooding functions, but found them ultimately unnecessary for the project.  
 
-[Visit the live site for further explanations!](https://emmilco.github.io/path_finder/)
+[Visit the live site for further explanations!](https://thepathfinder.vercel.app/)
