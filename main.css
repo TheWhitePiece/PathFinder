@@ -1,0 +1,126 @@
+#github {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#github > * {
+  margin-right: 20px;
+  text-transform: uppercase;
+  color: #6a9ae8;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#github *:hover {
+  text-decoration: underline;
+}
+
+canvas {
+  width: 45%;
+  padding: 5px;
+  background-color: black;
+  cursor: pointer;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 200px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 100px;
+}
+
+p {
+  font-size: 20px;
+  width: 536px;
+}
+
+.enclosure {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding: 30px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.canvas-box-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 25 0px;
+  margin-top: 100px;
+}
+
+.canvas-wrapper {
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.canvas-wrapper canvas {
+  width: 100%;
+}
+
+.maze-double {
+  display: flex;
+  flex-direction: column;
+}
+
+.maze-double canvas {
+  width: 95%;
+}
+
+.maze-horiz-double {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.maze-horiz-double canvas {
+  width: 40%;
+  height: 40%;
+}
+
+.no-top {
+  margin-top: 0;
+}
+
+.no-left {
+  margin-left: 0;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 12px;
+  width: auto;
+  animation: fadeInDown .5s linear;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.final-recap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.final-recap .canvas-wrapper {
+  width: 30%;
+}
+
+.final-recap canvas {
+  width: 100%;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; padding: 0;}
+  to { opacity: 1; }
+}
